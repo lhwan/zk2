@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.wrap {
+  display: -webkit-flex;
+  flex-direction: column; }
+  .wrap header {
+    width: 100%;
+    height: 44px;
+    background: #1c1920;
+    color: #fff;
+    display: -webkit-flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 10px;
+    align-items: center; }
+    .wrap header h3 {
+      font-weight: 400; }
+    .wrap header p {
+      width: 60px;
+      height: 44px;
+      text-align: center;
+      line-height: 44px; }
+      .wrap header p span {
+        display: inline-block;
+        width: 12px;
+        height: 20px;
+        background: url("../img/right.jpg");
+        background-size: 100% 100%;
+        transform: translateY(3px);
+        margin-right: 3px; }
+      .wrap header p.gd {
+        background: url("../img/gengduo.jpg") no-repeat center center;
+        background-size: 50% 50%; }
+  .wrap main {
+    width: 100%;
+    flex: 1;
+    overflow: hidden; }
+    .wrap main > div {
+      width: 100%;
+      height: auto;
+      overflow: auto; }
+      .wrap main > div ul {
+        width: 100%;
+        height: auto; }
+        .wrap main > div ul li {
+          width: 100%;
+          height: 44px;
+          line-height: 44px;
+          box-sizing: border-box;
+          padding: 0 10px;
+          border-bottom: solid 1px #ccc; }
+          .wrap main > div ul li b {
+            color: #fe8fb5;
+            font-weight: 500px;
+            border-left: solid 5px #fe8fb5;
+            padding-left: 10px; }
+          .wrap main > div ul li span {
+            padding-left: 10px; }
+          .wrap main > div ul li s {
+            float: right; }
+      .wrap main > div .box {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        padding: 0 10px;
+        border-bottom: solid 15px #f4f4f4; }
+        .wrap main > div .box p {
+          width: 100%;
+          height: 44px;
+          line-height: 44px; }
+          .wrap main > div .box p span {
+            margin-right: 10px; }
+            .wrap main > div .box p span s {
+              color: #fe8fb5; }
+        .wrap main > div .box .td {
+          width: 100%;
+          height: auto;
+          padding: 20px 0;
+          display: -webkit-flex;
+          justify-content: space-between;
+          align-items: center; }
+          .wrap main > div .box .td > span {
+            color: #666; }
+          .wrap main > div .box .td h3 {
+            width: 70%;
+            height: 20px;
+            border-radius: 10px;
+            background: #ccc;
+            position: relative; }
+            .wrap main > div .box .td h3 p {
+              width: 100px;
+              height: 20px;
+              background: #fe8fb5;
+              position: absolute;
+              left: 0;
+              top: 0;
+              border-radius: 10px; }
+            .wrap main > div .box .td h3 span {
+              position: absolute;
+              top: -5px;
+              left: 90px;
+              width: 30px;
+              height: 30px;
+              border-radius: 50%;
+              background: #fff;
+              border: solid 1px #999; }
+      .wrap main > div .xq {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        padding: 0 10px; }
+        .wrap main > div .xq h4 {
+          width: 100%;
+          height: 44px;
+          line-height: 44px;
+          border-bottom: solid 1px #ccc;
+          font-weight: 400; }
+        .wrap main > div .xq p {
+          width: 100%;
+          height: 150px;
+          padding: 10px 0;
+          line-height: 30px; }
+        .wrap main > div .xq div {
+          width: 100%;
+          height: 150px;
+          padding: 10px 0;
+          line-height: 30px; }
